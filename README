@@ -1,0 +1,17 @@
+From: http://en.wikipedia.org/wiki/Digital_Picture_Exchange
+
+Digital Picture Exchange (DPX) is a common file format for digital
+intermediate and visual effects work and is an ANSI/SMPTE standard
+(268M-2003). The file format is most commonly used to represent the
+density of each colour channel of a scanned negative in a 10-bit
+uncompressed log format where the gamma of the original camera
+negative is preserved as taken by a film scanner. Other common video
+formats are also supported. DPX provides a great deal of flexibility
+in storing color and other information for exchange between production
+facilities. Multiple forms of packing and alignment are possible.
+
+The DPX file format was originally derived from the output file format
+(.cin) of the Kodak Cineon 'FIDO' film scanner, and has been published
+by SMPTE as ANSI/SMPTE 268M-2003 (originally was version 1 268M-1994).
+
+
