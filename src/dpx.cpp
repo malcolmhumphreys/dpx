@@ -260,8 +260,6 @@ DpxReader::is_complete () {
 bool
 DpxReader::open (string filename) {
     
-    std::cout << "open called on [" << filename << "]" << std::endl;
-    
     // fill header with undefined values
     init();
     
@@ -619,7 +617,7 @@ operator<< (std::ostream& out, DpxReader& io) {
             << io.header().tv.ref_white_level << std::endl;
     if(defined(io.header().tv.integration_times))
         out << "- dpx:tv.integration_times: "
-            << io.header().tv.integration_times;
+            << io.header().tv.integration_times << std::endl;
     
     return out;
 }
