@@ -364,8 +364,11 @@ operator<< (std::ostream& out, DpxReader& io) {
     
     // file
     if(defined(io.header().file.magic_number))
+    {
+        u32_dpx magic = io.header().file.magic_number;
         out << "- dpx:file.magic_number: "
-            << (char*)&io.header().file.magic_number << std::endl;
+            << (char*)&magic << std::endl;
+    }
     if(defined(io.header().file.offset))
         out << "- dpx:file.offset: "
             << io.header().file.offset << std::endl;
